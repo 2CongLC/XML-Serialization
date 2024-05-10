@@ -43,11 +43,22 @@ Public Shared Function XmlSerialization(Byval objectToWrite as t) as string
   Dim sr as StreamReader = New StreamReader(ms)
   Dim result as String = sr.ReadtoEnd()
    sr.close()
-    ms.close()
-            
-     return result       
-            
+     ms.flush()
+     ms.Dispose()       
+    ms.close()            
+     return result                  
 End Function
 
+Public Shared Function XmlDeSerializtion(Byval value as String) as t
+ Dim obj as t = nothing
+ Dim ms as MemoryStream = New MemoryStream(Encoding.Unicode.GetBytes(value))
+ Dim xmls As XmlSerializer = New XmlSerializer(GetType(t))
+  obj = DirectCast(xmls.Deserialize(ms), t)
+            
+   ms.close()
+   return obj         
+            
+End Function
+        
         
 End Class
