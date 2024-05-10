@@ -35,6 +35,19 @@ Public Class SerializationManager(Of t As Class)
         Return obj
     End Function
 
+Public Shared Function XmlSerialization(Byval objectToWrite as t) as string
+ Dim ms as MemoryStream = New MemoryStream()
+ Dim xmls As XmlSerializer = New XmlSerializer(GetType(t))
+ xmls.Serialize(ms, objectToWrite)       
+     ms.Position = 0
+  Dim sr as StreamReader = New StreamReader(ms)
+  Dim result as String = sr.ReadtoEnd()
+   sr.close()
+    ms.close()
+            
+     return result       
+            
+End Function
 
-
+        
 End Class
