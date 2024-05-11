@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = XML_Serialization
-build_property.ProjectDir = C:\Users\Administrator\Downloads\XML Serialization\XML Serialization\
+build_property.ProjectDir = D:\Cong-20-03-2024\GitHub\XML-Serialization\XML Serialization\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

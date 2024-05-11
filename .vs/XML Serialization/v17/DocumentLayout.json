@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Cong-20-03-2024\\GitHub\\XML-Serialization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|d:\\cong-20-03-2024\\github\\xml-serialization\\xml serialization\\serializationmanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|solutionrelative:xml serialization\\serializationmanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SerializationManager.vb",
+              "DocumentMoniker": "D:\\Cong-20-03-2024\\GitHub\\XML-Serialization\\XML Serialization\\SerializationManager.vb",
+              "RelativeDocumentMoniker": "XML Serialization\\SerializationManager.vb",
+              "ToolTip": "D:\\Cong-20-03-2024\\GitHub\\XML-Serialization\\XML Serialization\\SerializationManager.vb",
+              "RelativeToolTip": "XML Serialization\\SerializationManager.vb",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-11T02:57:23.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

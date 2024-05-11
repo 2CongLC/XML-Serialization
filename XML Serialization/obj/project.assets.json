@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\XML Serialization\\XML Serialization\\XML Serialization.vbproj",
+      "projectUniqueName": "D:\\Cong-20-03-2024\\GitHub\\XML-Serialization\\XML Serialization\\XML Serialization.vbproj",
       "projectName": "XML Serialization",
-      "projectPath": "C:\\Users\\Administrator\\Downloads\\XML Serialization\\XML Serialization\\XML Serialization.vbproj",
+      "projectPath": "D:\\Cong-20-03-2024\\GitHub\\XML-Serialization\\XML Serialization\\XML Serialization.vbproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Downloads\\XML Serialization\\XML Serialization\\obj\\",
+      "outputPath": "D:\\Cong-20-03-2024\\GitHub\\XML-Serialization\\XML Serialization\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
