@@ -36,30 +36,4 @@ Public Class SerializationManager(Of t As Class)
         Return obj
     End Function
 
-    Public Shared Function XmlSerialization(ByVal objectToWrite As t) As String
-        Dim ms As MemoryStream = New MemoryStream()
-        Dim xmls As XmlSerializer = New XmlSerializer(GetType(t))
-        xmls.Serialize(ms, objectToWrite)
-        ms.Position = 0
-        Dim sr As StreamReader = New StreamReader(ms)
-        Dim result As String = sr.ReadToEnd()
-        sr.Close()
-        ms.Flush()
-        ms.Dispose()
-        ms.Close()
-        Return result
-    End Function
-
-    Public Shared Function XmlDeSerializtion(ByVal value As String) As t
-        Dim obj As t = Nothing
-        Dim ms As MemoryStream = New MemoryStream(Encoding.Unicode.GetBytes(value))
-        Dim xmls As XmlSerializer = New XmlSerializer(GetType(t))
-        obj = DirectCast(xmls.Deserialize(ms), t)
-
-        ms.Close()
-        Return obj
-
-    End Function
-
-
 End Class

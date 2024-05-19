@@ -37,18 +37,18 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(34, 148)
+        Button1.Location = New Point(198, 177)
         Button1.Name = "Button1"
-        Button1.Size = New Size(75, 23)
+        Button1.Size = New Size(120, 23)
         Button1.TabIndex = 0
         Button1.Text = "Encoder"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(34, 192)
+        Button2.Location = New Point(198, 206)
         Button2.Name = "Button2"
-        Button2.Size = New Size(75, 23)
+        Button2.Size = New Size(120, 23)
         Button2.TabIndex = 1
         Button2.Text = "Decoder"
         Button2.UseVisualStyleBackColor = True
@@ -63,7 +63,7 @@ Partial Class Form1
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(222, 299)
+        Button3.Location = New Point(34, 12)
         Button3.Name = "Button3"
         Button3.Size = New Size(173, 23)
         Button3.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class Form1
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(422, 299)
+        Button4.Location = New Point(12, 139)
         Button4.Name = "Button4"
         Button4.Size = New Size(222, 23)
         Button4.TabIndex = 3
@@ -81,7 +81,7 @@ Partial Class Form1
         ' 
         ' Button5
         ' 
-        Button5.Location = New Point(34, 270)
+        Button5.Location = New Point(12, 177)
         Button5.Name = "Button5"
         Button5.Size = New Size(156, 23)
         Button5.TabIndex = 4
@@ -90,7 +90,7 @@ Partial Class Form1
         ' 
         ' Button6
         ' 
-        Button6.Location = New Point(34, 299)
+        Button6.Location = New Point(12, 206)
         Button6.Name = "Button6"
         Button6.Size = New Size(156, 23)
         Button6.TabIndex = 5
@@ -99,7 +99,7 @@ Partial Class Form1
         ' 
         ' Button7
         ' 
-        Button7.Location = New Point(34, 328)
+        Button7.Location = New Point(12, 235)
         Button7.Name = "Button7"
         Button7.Size = New Size(156, 23)
         Button7.TabIndex = 6
@@ -108,14 +108,14 @@ Partial Class Form1
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(422, 213)
+        TextBox1.Location = New Point(12, 53)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(222, 23)
         TextBox1.TabIndex = 7
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(422, 252)
+        TextBox2.Location = New Point(12, 92)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(222, 23)
         TextBox2.TabIndex = 8

@@ -31,3 +31,20 @@ D:\Cong-20-03-2024\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-w
 D:\Cong-20-03-2024\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.pdb
 D:\Cong-20-03-2024\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.genruntimeconfig.cache
 D:\Cong-20-03-2024\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\ref\XML Serialization.dll
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\bin\Debug\net8.0-windows\XML Serialization.exe
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\bin\Debug\net8.0-windows\XML Serialization.deps.json
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\bin\Debug\net8.0-windows\XML Serialization.runtimeconfig.json
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\bin\Debug\net8.0-windows\XML Serialization.dll
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\bin\Debug\net8.0-windows\XML Serialization.pdb
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML_Serialization.Form1.resources
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.vbproj.GenerateResource.cache
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.AssemblyInfoInputs.cache
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.AssemblyInfo.vb
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.vbproj.CoreCompileInputs.cache
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.sourcelink.json
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.dll
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\refint\XML Serialization.dll
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.pdb
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\XML Serialization.genruntimeconfig.cache
+D:\Source VBNet_C#\GitHub\XML-Serialization\XML Serialization\obj\Debug\net8.0-windows\ref\XML Serialization.dll

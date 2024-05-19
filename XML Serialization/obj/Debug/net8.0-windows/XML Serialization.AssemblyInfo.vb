@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("XML Serialization"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c29f2e5bdbf416910af756f0bc839769ab52527"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de261d7b42f3ae47ea27b2c4c3add6e2b1b13c69"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("XML Serialization"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("XML Serialization"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
