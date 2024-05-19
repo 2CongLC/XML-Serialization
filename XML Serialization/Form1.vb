@@ -1,5 +1,6 @@
 ﻿Imports System.Data.SqlTypes
 Imports System.IO
+Imports System.Text
 Imports System.Xml
 
 Public Class Form1
@@ -135,5 +136,66 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Try
+            If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
+
+                Dim xmlstring As String = File.ReadAllText(OpenFileDialog1.FileName)
+                Dim result As String = SerializeXml(Of String)(xmlstring)
+
+                IO.File.WriteAllText(SaveFileDialog1.FileName, result)
+
+                MessageBox.Show("ok")
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString())
+        End Try
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Try
+            If OpenFileDialog1.ShowDialog = DialogResult.OK AndAlso SaveFileDialog1.ShowDialog = DialogResult.OK Then
+
+                Dim xmlstring As String = File.ReadAllText(OpenFileDialog1.FileName)
+                Dim result As String = DeserializeXml(Of String)(xmlstring)
+
+                IO.File.WriteAllText(SaveFileDialog1.FileName, result)
+
+                MessageBox.Show("ok")
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString())
+        End Try
+    End Sub
+
+    Public Function SerializeXml(Of T)(ByVal value As String) As String
+        Try
+
+
+            Dim xmlSerializer = New Xml.Serialization.XmlSerializer(GetType(T))
+            Using stringWriter = New IO.StringWriter()
+                Using write = Xml.XmlWriter.Create(stringWriter, New Xml.XmlWriterSettings With {
+                .Indent = True
+            })
+                    xmlSerializer.Serialize(write, value)
+                    Return stringWriter.ToString()
+                End Using
+            End Using
+        Catch ex As Exception
+            Throw New Exception("An error occurred", ex)
+        End Try
+    End Function
+
+    Public Function DeserializeXml(Of T)(ByVal value As String) As T
+        Try
+            Dim xmlSerializer = New Xml.Serialization.XmlSerializer(GetType(T))
+            Return CType(xmlSerializer.Deserialize(New IO.StringReader(value)), T)
+        Catch ex As Exception
+            Throw New Exception("An error occurred", ex)
+        End Try
+    End Function
 End Class

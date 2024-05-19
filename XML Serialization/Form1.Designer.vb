@@ -33,6 +33,8 @@ Partial Class Form1
         Button7 = New Button()
         TextBox1 = New TextBox()
         TextBox2 = New TextBox()
+        Button8 = New Button()
+        Button9 = New Button()
         SuspendLayout()
         ' 
         ' Button1
@@ -120,11 +122,31 @@ Partial Class Form1
         TextBox2.Size = New Size(222, 23)
         TextBox2.TabIndex = 8
         ' 
+        ' Button8
+        ' 
+        Button8.Location = New Point(204, 241)
+        Button8.Name = "Button8"
+        Button8.Size = New Size(114, 23)
+        Button8.TabIndex = 9
+        Button8.Text = "Encoder1"
+        Button8.UseVisualStyleBackColor = True
+        ' 
+        ' Button9
+        ' 
+        Button9.Location = New Point(214, 270)
+        Button9.Name = "Button9"
+        Button9.Size = New Size(104, 23)
+        Button9.TabIndex = 10
+        Button9.Text = "Decoder1"
+        Button9.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(363, 346)
+        Controls.Add(Button9)
+        Controls.Add(Button8)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
         Controls.Add(Button7)
@@ -134,7 +156,10 @@ Partial Class Form1
         Controls.Add(Button3)
         Controls.Add(Button2)
         Controls.Add(Button1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        MaximizeBox = False
         Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
@@ -151,5 +176,7 @@ Partial Class Form1
     Friend WithEvents Button7 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
 
 End Class

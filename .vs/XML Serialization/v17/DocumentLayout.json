@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Source VBNet_C#\\GitHub\\XML-Serialization\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|d:\\source vbnet_c#\\github\\xml-serialization\\xml serialization\\serializationmanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|solutionrelative:xml serialization\\serializationmanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|D:\\Source VBNet_C#\\GitHub\\XML-Serialization\\xml serialization\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|solutionrelative:xml serialization\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|d:\\source vbnet_c#\\github\\xml-serialization\\xml serialization\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|D:\\Source VBNet_C#\\GitHub\\XML-Serialization\\xml serialization\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|solutionrelative:xml serialization\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|d:\\source vbnet_c#\\github\\xml-serialization\\xml serialization\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|solutionrelative:xml serialization\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|d:\\source vbnet_c#\\github\\xml-serialization\\xml serialization\\serializationmanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{BC4C1E15-6F52-4901-9D61-D7FD90EBDF31}|XML Serialization\\XML Serialization.vbproj|solutionrelative:xml serialization\\serializationmanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,14 +32,14 @@
               "RelativeDocumentMoniker": "XML Serialization\\Form1.vb",
               "ToolTip": "D:\\Source VBNet_C#\\GitHub\\XML-Serialization\\XML Serialization\\Form1.vb",
               "RelativeToolTip": "XML Serialization\\Form1.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAcwKgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-19T06:33:42.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "D:\\Source VBNet_C#\\GitHub\\XML-Serialization\\XML Serialization\\Form1.vb",
               "RelativeDocumentMoniker": "XML Serialization\\Form1.vb",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SerializationManager.vb",
               "DocumentMoniker": "D:\\Source VBNet_C#\\GitHub\\XML-Serialization\\XML Serialization\\SerializationManager.vb",
               "RelativeDocumentMoniker": "XML Serialization\\SerializationManager.vb",
               "ToolTip": "D:\\Source VBNet_C#\\GitHub\\XML-Serialization\\XML Serialization\\SerializationManager.vb",
               "RelativeToolTip": "XML Serialization\\SerializationManager.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAQAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-11T02:57:23.52Z",
               "EditorCaption": ""
